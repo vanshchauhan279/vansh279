@@ -7,8 +7,8 @@ const Hero = () => {
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="grid max-w-md grid-cols-1 mx-auto lg:grid-cols-12 gap-x-6 gap-y-8 lg:max-w-none">
                 <div className="self-center lg:col-span-4">
-                    <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Hey 👋 I am Aditya Tyagi.</h1>
-                    <p className="mt-5 text-base font-normal leading-7 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus.</p>
+                    <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Hello👋 I'm Aditya Tyagi.</h1>
+                    <p className="mt-5 text-base font-normal leading-7 text-gray-500">I'm a B.Tech 4th year student specializing in Computer Science. As a software engineer, I have hands-on experience with a wide range of modern technologies including ReactJS, Redux, Node.js, Express, MongoDB, PostgreSQL, Docker, Serverless, SQL, Next.js, TypeScript, AWS, and Linux.</p>
                     <div className="relative inline-flex mt-9 group">
                         <div className="absolute transitiona-all duration-1000 opacity-70 inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div>
 
@@ -21,6 +21,7 @@ const Hero = () => {
                             Explore My Projects
                         </Link>
                     </div>
+                    
                 </div>
 
                 <div className="self-end lg:order-last lg:pb-20 lg:col-span-3">
