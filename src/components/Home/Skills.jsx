@@ -47,11 +47,10 @@ const Skills = () => {
   return (
     <>
       <section className="text-gray-600 max-w-screen-xl mx-auto body-font">
-        <div className="container px-5 py-16 mx-auto">
+        <div className="container px-5 py-20 mx-auto">
           <div className="text-center mb-10">
-            <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
-              About Me
-            </h1>
+          <h2 class="max-w-2xl mb-10 text-center mx-auto text-4xl font-semibold tracking-tight text-gray-800 xl:text-6xl dark:text-white">
+           <span class="text-indigo-700">About</span> Me        </h2>
             <p className="text-base leading-relaxed xl:w-5/5 lg:w-4/5 mx-auto">
               As a dedicated and passionate software engineer, I thrive on
               leveraging my diverse technical skill set to solve complex

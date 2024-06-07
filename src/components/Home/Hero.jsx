@@ -12,14 +12,15 @@ const Hero = () => {
                     <div className="relative inline-flex mt-9 group">
                         <div className="absolute transitiona-all duration-1000 opacity-70 inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div>
 
-                        <Link
+                        <a
                             href="/projects"
                             title=""
+                            target='_blank'
                             className="relative inline-flex items-center justify-center px-8 py-3 sm:text-sm sm:py-3.5 text-base font-semibold text-white transition-all duration-200 bg-indigo-600 border border-transparent rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600"
                             role="button"
                         >
-                            Explore My Projects
-                        </Link>
+                            Connect with me
+                        </a>
                     </div>
                     
                 </div>
@@ -30,10 +31,10 @@ const Hero = () => {
                     <div className="mt-6 space-y-6 lg:space-y-8">
                         <div className="relative overflow-hidden">
                             <div className="flex items-start lg:items-center">
-                                <img className="object-cover w-12 h-12 rounded-lg shrink-0" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/1/thumbnail-1.png" alt="" />
+                                <img className="object-cover w-12 h-12 rounded-lg shrink-0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIs2SyuTN4CzzF4obo5wxVC0dsOKs-pJcf7j_dt7lau99PXHX0Fa1pNgPq76btYZs2YEM&usqp=CAU" alt="" />
                                 <p className="ml-5 text-base font-bold leading-6 text-gray-900">
                                     <Link href="#" title="">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    Next.js: Unleashing the Power of Server-Side Rendering
                                         <span className="absolute inset-0" aria-hidden="true"></span>
                                     </Link>
                                 </p>
@@ -42,10 +43,10 @@ const Hero = () => {
 
                         <div className="relative overflow-hidden">
                             <div className="flex items-start lg:items-center">
-                                <img className="object-cover w-12 h-12 rounded-lg shrink-0" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/1/thumbnail-2.png" alt="" />
+                                <img className="object-cover w-12 h-12 rounded-lg shrink-0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmRVGB0WPlBJeDT5zCponB8G4ktKdg8ji4Ug&s" alt="" />
                                 <p className="ml-5 text-base font-bold leading-6 text-gray-900">
                                     <Link href="#" title="">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing.
+                                    Optimizing Performance in Next.js: Best Practices and Techniques
                                         <span className="absolute inset-0" aria-hidden="true"></span>
                                     </Link>
                                 </p>
@@ -54,10 +55,10 @@ const Hero = () => {
 
                         <div className="relative overflow-hidden">
                             <div className="flex items-start lg:items-center">
-                                <img className="object-cover w-12 h-12 rounded-lg shrink-0" src="https://landingfoliocom.imgix.net/store/collection/clarity-blog/images/hero/1/thumbnail-3.png" alt="" />
+                                <img className="object-cover w-12 h-12 rounded-lg shrink-0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsQDoTu_QAK3V2Fz_0tC0YDb2KaYVseFrRQ&s" alt="" />
                                 <p className="ml-5 text-base font-bold leading-6 text-gray-900">
                                     <Link href="#" title="">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                    Mastering Linux: Essential Tips and Tricks for Beginners
                                         <span className="absolute inset-0" aria-hidden="true"></span>
                                     </Link>
                                 </p>
