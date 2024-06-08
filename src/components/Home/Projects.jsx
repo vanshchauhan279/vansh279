@@ -4,7 +4,7 @@ const Project = [
       id: 1,
       name: "Quality Veda Portal",
       description: "Quality Veda is a premier destination for diverse medical training programs, bridging theoretical knowledge with practical application.",
-      imageLink: "/tbikiet.png",
+      imageLink: "/qualityveda.png",
       livelink: "https://qualityveda.co",
       technologies: "React.js, Redux Toolkit, MongoDB, Redis, Next.js, Node.js, Express, Socket.io",
       github: "https://github.com/adityatyagi-av/qualityveda"
