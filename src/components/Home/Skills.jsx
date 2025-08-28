@@ -20,13 +20,13 @@ const AllSkills = [
   {
     id: 2,
     name: "Back-End Development",
-    skills: ["Node.js", "Express", "SQL", "PostgreSQL", "MongoDB", "Prisma"],
+    skills: ["Node.js", "Express", "SQL",, "MongoDB", "Prisma"],
   },
   
   {
     id: 4,
     name: "Programming Languages and Tools",
-    skills: ["JavaScript", "TypeScript", "Python", "Java", "Git"],
+    skills: ["JavaScript", "TypeScript", "C++", "Python", "Git"],
   },
   {
     id: 3,
@@ -96,7 +96,7 @@ const Skills = () => {
             })}
         
           </div>
-          <a href="/adityatyagi.pdf" download className="flex text-center mx-auto mt-9 w-56 text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <a href="/Vansh279_Resume.pdf" download className="flex text-center mx-auto mt-9 w-56 text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Download Resume
           </a>
         </div>

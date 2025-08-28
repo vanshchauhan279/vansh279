@@ -7,7 +7,7 @@ const Project = [
       imageLink: "/qualityveda.png",
       livelink: "https://qualityveda.co",
       technologies: "React.js, Redux Toolkit, MongoDB, Redis, Next.js, Node.js, Express, Socket.io",
-      github: "https://github.com/adityatyagi-av/qualityveda"
+      github: "https://github.com/vanshchauhan279/qualityveda"
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const Project = [
       imageLink: "/springbee.png",
       livelink: "https://springbee.tech",
       technologies: "React.js, Redux Toolkit, MongoDB, Redis, Next.js, Node.js, Express, Socket.io",
-      github: "https://github.com/aryantiwari8736/client"
+      github: "https://github.com/vanshchauhan279/springbee"
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const Project = [
       imageLink: "/tbikiet.png",
       livelink: "https://tbikiet.vercel.app",
       technologies: "Django, React.js, JSX, Next.js, Supabase, PostgreSQL",
-      github: "https://github.com/tbikiet/TBI-Frontend"
+      github: "https://github.com/vanshchauhan279/TBI-Frontend_repo"
     },
     {
       id: 4,
@@ -34,16 +34,16 @@ const Project = [
       imageLink: "/nscckiet.png",
       livelink: "https://nscckiet.tech",
       technologies: "Next.js, Tailwind CSS, Supabase, SQL, YouTube API, Google API",
-      github: "https://github.com/adityatyagi-av/nsccwebsite"
+      github: "https://github.com/vanshchauhan279/nsccwebsite"
     },
     {
       id: 5,
       name: "MediCords Portal",
       description: "MediCords is a centralized portal for storing and accessing medical records. It provides a user-friendly interface for users to upload and manage their medical records securely.",
       imageLink: "/medicords.png",
-      livelink: "https://github.com/adityatyagi-av/MEDI_CORD",
+      livelink: "https://github.com/vanshchauhan/MEDI_CORD",
       technologies: "Node.js, jQuery, React.js, MongoDB",
-      github: "https://github.com/adityatyagi-av/MEDI_CORD"
+      github: "https://github.com/vanshchauhan279/MEDI_CORD"
     }
   ];
 
