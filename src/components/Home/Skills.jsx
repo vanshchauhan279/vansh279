@@ -96,7 +96,7 @@ const Skills = () => {
             })}
         
           </div>
-          <a href="/Vansh279_Resume.pdf" download className="flex text-center mx-auto mt-9 w-56 text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <a href="/Vansh_279_Resume.pdf" download className="flex text-center mx-auto mt-9 w-56 text-white bg-indigo-700 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
             Download Resume
           </a>
         </div>

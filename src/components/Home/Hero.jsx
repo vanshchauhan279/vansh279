@@ -58,7 +58,7 @@ const Hero = () => {
                                 <img className="object-cover w-12 h-12 rounded-lg shrink-0" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdsQDoTu_QAK3V2Fz_0tC0YDb2KaYVseFrRQ&s" alt="" />
                                 <p className="ml-5 text-base font-bold leading-6 text-gray-900">
                                     <Link href="#" title="">
-                                    Mastering Linux: Essential Tips and Tricks for Beginners
+                                    Artificial Intelligence: Machine Learning Algorithm for Beginners
                                         <span className="absolute inset-0" aria-hidden="true"></span>
                                     </Link>
                                 </p>

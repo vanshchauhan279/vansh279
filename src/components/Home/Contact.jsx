@@ -71,13 +71,13 @@ const Contact = () => {
                 <p className="mt-4 text-gray-500 dark:text-gray-400">
                 Whether you have a project idea in mind, want to explore collaboration opportunities, or simply have a question, I'm here to help. Let's connect and turn your vision into reality. Together, we can create something extraordinary. Reach out via email, phone, or the contact form below, and let's start building something amazing.            </p>
 
-                <form className="mt-12" onSubmit={formik.handleSubmit}>
+                <form className="mt-12" >
                     <div className="-mx-2 md:items-center md:flex">
                         <div className="flex-1 px-2">
                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
                       Full Name{" "}
                       {formik.touched.name && formik.errors.name ? (
-                        <span className=" text-xs text-red-500 mb-.5">{`(${formik.errors.name}*)`}</span>
+                        <span className=" text-xs text-red-500 mb-.5">{``}</span>
                       ) : null}
                     </label>
                     <input
@@ -125,7 +125,7 @@ const Contact = () => {
                     value={formik.values.message} className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                     </div>
 
-                    <button type="submit" className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                    <button  className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-indigo-700 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                         Send Message
                     </button>
                 </form>

@@ -1,7 +1,16 @@
 "use client"
 const Project = [
-    {
+   {
       id: 1,
+      name: "TBI-KIET Website",
+      description: "TBI-KIET is a registered body promoting entrepreneurship and innovation. It was jointly promoted by NSTEDB, Department of Science & Technology, Govt. of India and KIET Group of Institutions.",
+      imageLink: "/tbikiet.png",
+      livelink: "https://tbikiet.vercel.app",
+      technologies: "Django, React.js, JSX, Next.js, Supabase, PostgreSQL",
+      github: "https://github.com/vanshchauhan279/TBI-Frontend_repo"
+    },
+    {
+      id: 2,
       name: "Quality Veda Portal",
       description: "Quality Veda is a premier destination for diverse medical training programs, bridging theoretical knowledge with practical application.",
       imageLink: "/qualityveda.png",
@@ -10,22 +19,13 @@ const Project = [
       github: "https://github.com/vanshchauhan279/qualityveda"
     },
     {
-      id: 2,
+      id: 3,
       name: "SpringBee Portal",
       description: "Established to amplify online potential, SpringBee offers premium consultancy services focused on accelerating businesses, recognizing the individuality in the needs of unparalleled business ventures.",
       imageLink: "/springbee.png",
-      livelink: "https://springbee.tech",
+      livelink: "#",
       technologies: "React.js, Redux Toolkit, MongoDB, Redis, Next.js, Node.js, Express, Socket.io",
       github: "https://github.com/vanshchauhan279/springbee"
-    },
-    {
-      id: 3,
-      name: "TBI-KIET Website",
-      description: "TBI-KIET is a registered body promoting entrepreneurship and innovation. It was jointly promoted by NSTEDB, Department of Science & Technology, Govt. of India and KIET Group of Institutions.",
-      imageLink: "/tbikiet.png",
-      livelink: "https://tbikiet.vercel.app",
-      technologies: "Django, React.js, JSX, Next.js, Supabase, PostgreSQL",
-      github: "https://github.com/vanshchauhan279/TBI-Frontend_repo"
     },
     {
       id: 4,
@@ -36,15 +36,7 @@ const Project = [
       technologies: "Next.js, Tailwind CSS, Supabase, SQL, YouTube API, Google API",
       github: "https://github.com/vanshchauhan279/nsccwebsite"
     },
-    {
-      id: 5,
-      name: "MediCords Portal",
-      description: "MediCords is a centralized portal for storing and accessing medical records. It provides a user-friendly interface for users to upload and manage their medical records securely.",
-      imageLink: "/medicords.png",
-      livelink: "https://github.com/vanshchauhan/MEDI_CORD",
-      technologies: "Node.js, jQuery, React.js, MongoDB",
-      github: "https://github.com/vanshchauhan279/MEDI_CORD"
-    }
+  
   ];
 
 const Projects = () => {
